@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/shreya20m/guava_1.git'
+                git branch: 'master', url: 'https://github.com/Babithavr/guava_1.git'
             }
         }
 
